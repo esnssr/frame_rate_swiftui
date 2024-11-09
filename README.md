@@ -8,6 +8,9 @@ looked it up online, and found this [post](https://x.com/ChristianSelig/status/1
 i quickly made a small demo project, and added the exact same animation for both UIKit and SwiftUI for 1 second, even though in my original animation i was using 300ms. i immediately noticed the difference when running both animations (UIKit and SwiftUI) side by side. instruments shows that SwiftUI drops to 16ms (60Hz) on my iPhone 14 Pro (which supports 120Hz Pro Motion) while UIKit doesn't and moves with 8ms.
 > if you are not familiar with timings and refresh rates for Pro Motion displays take a look [here](https://developer.apple.com/documentation/quartzcore/optimizing_promotion_refresh_rates_for_iphone_13_pro_and_ipad_pro).
 
+<img src = 'https://github.com/user-attachments/assets/f815a4a4-7afd-47b8-95a5-f8d7436b5b1b' height = 500> 
+<img src = 'https://github.com/user-attachments/assets/d40cbcc8-e76c-4c01-bba3-7446ffbc6d17' height = 500>
+
 
 anyways, i am now desperate 😅. i am trying to avoid using UIKit here (or maybe i will? 👀), so i would appreciate any help here!
 
