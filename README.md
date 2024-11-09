@@ -19,7 +19,7 @@ then:
 - try to toggle both. sometimes SwiftUI will drop to 60Hz and sometimes it doesn't. but toggling the SwiftUI view you will almost always see it dropping to 60Hz.
 
 # peviews 📺
-i don't think the videos here make the difference clear, but here are some previews of the issue running in slow motion.
+i don't think the videos here make the difference clear, but here are some previews of the issue.
 ## SwiftUI
 
 https://github.com/user-attachments/assets/0b95e367-b528-4b75-9e6c-6723183440c7
